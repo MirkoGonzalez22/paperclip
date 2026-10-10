@@ -1,5 +1,5 @@
 {
-  "commandDigest": "sha256:e92078bee3c23bec4100aa589013a44613d054cd686826534025d8019e9f39a9",
+  "commandDigest": "sha256:e7025fc8d35ccd118b0dfa96bc6adbaf6fe6234d2e7ffb27ab51a1b585e7bc92",
   "declaration": {
     "schema": "paperclip.acpx_profile_declaration.v1",
     "agent": "pi",
@@ -20,7 +20,7 @@
     "nativeQuestions": "select-confirm-input-editor-v4-root-field-types",
     "pathPolicy": "sdk-normalization-v1",
     "mcpToolNames": "provider-safe-exact-source-v1",
-    "acpxPatchSha256": "00d6af17216cb0cad902b48633eb19bf0ec6b05837a984cb24661fca593f09c1",
+    "acpxPatchSha256": "b7a53afa5fcb4ae9ba4feccb24c2397ed95a72e560bbf749b0c00af195fe83b1",
     "nativeAssistantMessages": "pi1-rpc-deltas-v3-bound-message-and-tool-receipts",
     "nativeNotices": "session-extension-v2-bounded-runtime-failure",
     "messageProjectionSha256": "17d1e91b948dfa6a56e1905645add52b502041ad843c8d50a13b07956f22aadd",

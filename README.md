@@ -46,6 +46,18 @@ It looks like a task manager. Under the hood: org charts, budgets, governance, g
 
 **Manage business goals, not pull requests.**
 
+## MirkoGonzalez22 fork: local GPT-5.5 company setup
+
+This fork includes a verified local setup path for a Codex-backed Paperclip company on Windows. The initial local instance is documented in [doc/plans/2026-10-09-initial-gpt55-company-setup.md](doc/plans/2026-10-09-initial-gpt55-company-setup.md): it uses `codex_local`, ChatGPT/Codex login, model `gpt-5.5`, a five-agent software org, human-only confirmation governance, and a demo project/task.
+
+Quick local shape:
+
+```powershell
+$env:PAPERCLIP_HOME="C:\Users\Nicodh\Documents\Codex\paperclip-data"
+$env:PAPERCLIP_INSTANCE_ID="initial-company-setup"
+pnpm --filter @paperclipai/server dev
+```
+
 |        | Step            | Example                                                            |
 | ------ | --------------- | ------------------------------------------------------------------ |
 | **01** | Define the goal | _"Build the #1 AI note-taking app to $1M MRR."_                    |
